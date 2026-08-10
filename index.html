@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manaal Maisoon | Researcher</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23655A7C'/><text x='50' y='72' font-family='sans-serif' font-size='70' font-weight='bold' fill='%23FDF1E2' text-anchor='middle'>M</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for professional typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="dossier-container">
+        <!-- Tab Navigation -->
+        <nav class="folder-tabs">
+            <button class="tab-btn active" data-target="section-profile">Profile</button>
+            <button class="tab-btn" data-target="section-publications">Publications</button>
+            <button class="tab-btn" data-target="section-education">Education</button>
+            <button class="tab-btn" data-target="section-projects">Projects</button>
+            <button class="tab-btn" data-target="section-certificates">Certificates</button>
+        </nav>
+
+        <!-- Main Folder Content -->
+        <main class="folder-content">
+            
+            <!-- Quick Actions Header (For the PI) -->
+            <header class="quick-actions">
+                <a href="assets/manaal_maisoon_cv.pdf" target="_blank" class="action-btn primary-btn">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    Download CV/Resume
+                </a>
+                <a href="https://ieeexplore.ieee.org/document/11595812/" target="_blank" class="action-btn secondary-btn">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    Latest Publication
+                </a>
+            </header>
+
+            <!-- Section: Profile -->
+            <section id="section-profile" class="content-section active">
+                <div class="id-card">
+                    <div class="id-card-header">
+                        <div class="id-card-photo">
+                            <!-- Drop your profile picture here -->
+                            <img src="assets/profile_picture.jpeg" alt="Manaal Maisoon" id="profile-img" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23655A7C\' stroke-width=\'1\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><path d=\'M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\'></path><circle cx=\'12\' cy=\'7\' r=\'4\'></circle></svg>'">
+                        </div>
+                        <div class="id-card-info">
+                            <h1>Manaal Maisoon</h1>
+                            <p class="title">Health Technologies & Data Science Researcher</p>
+                            <p class="location">📍 Based in India</p>
+                        </div>
+                    </div>
+                    <div class="id-card-body">
+                        <p class="bio">I am a first-year MSc student in Health Technologies & Data Science at JSSAHER, with a BSc in Medical Imaging Technology which gave me direct clinical experience with MRI modalities and patient care. For my MSc thesis, I am working on developing a DL pipeline for early Parkinson's disease detection using raw DWI signals instead of usual DTI metrics and benchmarking them to see what information is lost when we summarise an entire DWI signal into summaries like FA or MD. I have a first-author publication in IEEE Access on interpretable ML for maternal health risk stratification, with active submissions in cardiac MRI segmentation and cross-subject EEG seizure detection.<br><br>Expected graduation: September 2027; seeking funded PhD positions from late 2027 or early 2028.</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/manaalm/" target="_blank">LinkedIn</a>
+                            <a href="https://orcid.org/0009-0001-1835-6692" target="_blank">ORCID</a>
+                            <a href="https://scholar.google.com/citations?user=_2eYUQ4AAAAJ&hl=en" target="_blank">Google Scholar</a>
+                            <a href="https://github.com/manaal-m" target="_blank">GitHub</a>
+                            <a href="#" id="copy-email-btn" title="Click to copy">📧 mm.manaal11@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section: Publications -->
+            <section id="section-publications" class="content-section">
+                <h2 class="section-title">Publications</h2>
+                
+                <h3 class="pub-category">Published</h3>
+                <div class="pub-item">
+                    <h4 class="pub-title">Maternal Health Risk Stratification in Low-Resource Settings: Comparative Analysis of Machine Learning Models With XAI</h4>
+                    <p class="pub-venue">IEEE Access, 2026.</p>
+                    <p class="pub-links">
+                        <a href="https://ieeexplore.ieee.org/document/11595812/" target="_blank">DOI</a> | 
+                        <a href="assets/ieee_maternal_health.pdf" target="_blank">PDF</a> | 
+                        <a href="https://github.com/manaal-m/Maternal-Health-Risk-Stratification" target="_blank">GitHub</a>
+                    </p>
+                </div>
+
+                <h3 class="pub-category">Under Review</h3>
+                <div class="pub-item">
+                    <h4 class="pub-title">Lightweight U-Net Architectures for Cardiac MRI Segmentation in Resource-Constrained Clinical Settings: A Comparative Study</h4>
+                    <p class="pub-venue">Submitted to MIRASOL (MICCAI 2026 Satellite Workshop) — under review.</p>
+                    <p class="pub-links">
+                        <a href="https://github.com/manaal-m/acdc-cardiac-mri-segmentation" target="_blank">GitHub</a>
+                    </p>
+                </div>
+
+                <div class="pub-item">
+                    <h4 class="pub-title">Prioritising Normalisation Over Filtering: Lightweight EEG Seizure Detection for Low-Resource Settings</h4>
+                    <p class="pub-venue">Submitted to IEEE DELCON 2026 — under review.</p>
+                    <p class="pub-links">
+                        <a href="https://github.com/manaal-m/eeg-preprocessing-loso" target="_blank">GitHub</a>
+                    </p>
+                </div>
+
+                <div class="pub-item">
+                    <h4 class="pub-title">Reducing Sedation in Paediatric MRI through Patient Centred Care and Deep Learning Based Motion Correction</h4>
+                    <p class="pub-venue">Major revision, Discover Paediatrics — under review.</p>
+                </div>
+
+                <h3 class="pub-category">Thesis (In Preparation)</h3>
+                <div class="pub-item">
+                    <h4 class="pub-title">Early Detection of Parkinson's Disease Using Deep Learning on Raw Diffusion-Weighted Imaging Versus DTI-Derived Metrics</h4>
+                    <p class="pub-venue">MSc Dissertation, JSSAHER, expected September 2027.</p>
+                </div>
+            </section>
+
+            <!-- Section: Education -->
+            <section id="section-education" class="content-section">
+                <h2 class="section-title">Education</h2>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2025 — 2027</div>
+                        <div class="timeline-content">
+                            <h3>MSc in Health Technologies & Data Science</h3>
+                            <p class="institution">JSS Academy of Higher Education & Research</p>
+                            <p class="gpa">Current SGPA: 9.77</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021 — 2025</div>
+                        <div class="timeline-content">
+                            <h3>BSc in Medical Imaging Technology</h3>
+                            <p class="institution">JSS Academy of Higher Education & Research</p>
+                            <p class="gpa">CGPA: 8.29 | 🏆 Gold Medalist (First in Cohort)</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022 — 2025</div>
+                        <div class="timeline-content">
+                            <h3>BA (Hons.) in English</h3>
+                            <p class="institution">Indira Gandhi National Open University</p>
+                            <p class="gpa">First Class</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section: Projects -->
+            <section id="section-projects" class="content-section">
+                <h2 class="section-title">Research Projects & Code</h2>
+                <div class="grid-layout">
+                    <a href="https://github.com/manaal-m/Maternal-Health-Risk-Stratification" target="_blank" class="project-card">
+                        <div class="project-header">
+                            <h3>Maternal-Health-Risk-Stratification</h3>
+                            <span class="status-badge status-published">Published</span>
+                        </div>
+                        <p>Machine learning models and XAI implementations for predicting maternal health risks.</p>
+                        <p class="project-details">SHAP explainability for clinical interpretability | SMOTE | Stratified 5-fold CV</p>
+                    </a>
+                    <a href="https://github.com/manaal-m/acdc-cardiac-mri-segmentation" target="_blank" class="project-card">
+                        <div class="project-header">
+                            <h3>acdc-cardiac-mri-segmentation</h3>
+                            <span class="status-badge status-under-review">Under Review</span>
+                        </div>
+                        <p>Deep learning models for cardiac MRI segmentation on the ACDC dataset.</p>
+                        <p class="project-details">Lightweight U-Net variants | ACDC dataset | Dice score evaluation</p>
+                    </a>
+                    <a href="https://github.com/manaal-m/eeg-preprocessing-loso" target="_blank" class="project-card">
+                        <div class="project-header">
+                            <h3>eeg-preprocessing-loso</h3>
+                            <span class="status-badge status-under-review">Under Review</span>
+                        </div>
+                        <p>Lightweight 1D CNN for EEG classification and a domain-informed preprocessing pipeline evaluated via LOSO validation.</p>
+                        <p class="project-details">1D CNN | domain-informed normalization | leave-one-subject-out validation</p>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Section: Certificates -->
+            <section id="section-certificates" class="content-section">
+                <h2 class="section-title">Certifications</h2>
+                <div class="grid-layout">
+                    <a href="https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/102/noc25-bt61/Course/NPTEL25BT61S66410067710623001.pdf" target="_blank" class="project-card">
+                        <h3>Medical Image Analysis</h3>
+                        <p>NPTEL (IIT/IISc initiative)</p>
+                    </a>
+                    <a href="https://codeinplace.stanford.edu/cip6/certificate/cx92vm" target="_blank" class="project-card">
+                        <h3>Code in Place</h3>
+                        <p>Stanford University</p>
+                    </a>
+                    <a href="https://media.licdn.com/dms/image/v2/D4D2DAQEzm3lTKZ0Z0A/profile-treasury-document-images_1280/B4DZi.i7ZnH4AU-/1/1755543486323?e=1787184000&v=beta&t=NkKFO-MiwZ_3sDW9nD_mvrM7bLkdKNt29VCfoV6pDok" target="_blank" class="project-card">
+                        <h3>Functional MRI (fMRI BOLD)</h3>
+                        <p>Siemens Healthineers</p>
+                    </a>
+                    <a href="https://coursera.org/share/40b426bdbdf1441a902cc46206f9a740" target="_blank" class="project-card">
+                        <h3>MRI Fundamentals</h3>
+                        <p>Coursera</p>
+                    </a>
+                    <a href="https://coursera.org/share/cefa0da748887632a50a0b571381e455" target="_blank" class="project-card">
+                        <h3>AI in Healthcare Specialization</h3>
+                        <p>Coursera</p>
+                    </a>
+                    <a href="https://coursera.org/share/f49e75f8a063a068a302a3c3b74ddee7" target="_blank" class="project-card">
+                        <h3>Medical Image Processing</h3>
+                        <p>Coursera</p>
+                    </a>
+                </div>
+            </section>
+
+        </main>
+        
+        <footer class="dossier-footer">
+            <p class="copyright">&copy; 2026 Manaal</p>
+        </footer>
+    </div>
+
+    <div id="global-toast">Copied to clipboard!</div>
+    <script src="script.js"></script>
+</body>
+</html>
